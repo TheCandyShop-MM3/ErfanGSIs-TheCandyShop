@@ -21,20 +21,18 @@ Telegram channel: https://t.me/ErfanGSI
 * Others
 
 ## YuMi GSIs Info
-[![Download YuMi GSIs - The return](https://img.shields.io/sourceforge/dm/yumi-project.svg)](https://sourceforge.net/projects/yumi-project/files/latest/download)
-[![Download YuMi GSIs - The return](https://img.shields.io/sourceforge/dw/yumi-project.svg)](https://sourceforge.net/projects/yumi-project/files/latest/download)
-[![Download YuMi GSIs - The return](https://img.shields.io/sourceforge/dt/yumi-project.svg)](https://sourceforge.net/projects/yumi-project/files/latest/download)  
-Download link: https://sourceforge.net/projects/yumi-project/files/  
-Telegram group: https://t.me/yumigsis_group  
-Telegram channel: https://t.me/yumigsis_channel  
+
+Download link: https://sourceforge.net/projects/dekugsi/files/
+Telegram group: https://t.me/dekugsi 
+Telegram channel: https://t.me/dekugsichannel  
 
 ### Download tools
 ```
-git clone --recurse-submodules https://github.com/Treble-Experience/ErfanGSIs-VelanGSIs.git ErfanGSIs
+git clone --recurse-submodules https://github.com/ddeekuu/ErfanGSIs-DekuGSIs.git ErfanGSIs
 ```
 
 ### For setting up requirements
     sudo bash setup.sh
 
 ### Credits
-All credits to Erfan Abdi, VegaBobo, Hitalo, Jamie, Nippon, Helios and others.
+All credits to Erfan Abdi, VegaBobo, Hitalo, Jamie, Nippon, Helios, SkyYuko and others.
