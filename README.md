@@ -22,9 +22,9 @@ Telegram channel: https://t.me/ErfanGSI
 
 ## YuMi GSIs Info
 
-Download link: https://sourceforge.net/projects/dekugsi/files/
-Telegram group: https://t.me/dekugsi 
-Telegram channel: https://t.me/dekugsichannel  
+* Download link: https://sourceforge.net/projects/dekugsi/files/
+* Telegram group: https://t.me/dekugsi 
+* Telegram channel: https://t.me/dekugsichannel  
 
 ### Download tools
 ```
