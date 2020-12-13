@@ -20,7 +20,7 @@ Telegram channel: https://t.me/ErfanGSI
 * Additional information when an image is created
 * Others
 
-## YuMi GSIs Info
+## Deku GSIs Info
 
 * Download link: https://sourceforge.net/projects/dekugsi/files/
 * Telegram group: https://t.me/dekugsi 
