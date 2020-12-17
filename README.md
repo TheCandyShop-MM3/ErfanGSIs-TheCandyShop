@@ -26,9 +26,9 @@ Telegram channel: https://t.me/ErfanGSI
 * Telegram group: https://t.me/dekugsi 
 * Telegram channel: https://t.me/dekugsichannel  
 
-### Download tools
+### Download tools - Mi Max 3 Edition
 ```
-git clone --recurse-submodules https://github.com/ddeekuu/ErfanGSIs-DekuGSIs.git ErfanGSIs
+git clone --recurse-submodules https://github.com/spydermahn1234/ErfanGSIs-DekuGSIs.git ErfanGSIs
 ```
 
 ### For setting up requirements
