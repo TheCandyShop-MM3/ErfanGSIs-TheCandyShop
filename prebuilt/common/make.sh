@@ -147,3 +147,33 @@ echo "ro.config.ringtone=Orion.ogg" >> $1/product/build.prop
 echo "ro.config.alarm_alert=Hassium.ogg" >> $1/product/build.prop
 echo "ro.config.notification_sound=Argon.ogg" >> $1/product/build.prop
 
+# Manufacturer and Model Edit
+echo "# Dalvik fix" >> $1/build.prop
+sed -i "/ro.product.system.brand/d" $1/build.prop
+sed -i "/ro.product.system.device/d" $1/build.prop
+sed -i "/ro.product,system.manufacturer/d" $1/build.prop
+sed -i "/ro.product.system.model/d" $1/build.prop
+sed -i "/ro.build.product/d" $1/build.prop
+sed -i "/ro.product.system_ext.brand/d" $1/system_ext/build.prop
+sed -i "/ro.product.system_ext.device/d" $1/system_ext/build.prop
+sed -i "/ro.product.system_ext.manufacturer/d" $1/system_ext/build.prop
+sed -i "/ro.product.system_ext.model/d" $1/system_ext/build.prop
+sed -i "/ro.product.product.brand/d" $1/product/build.prop
+sed -i "/ro.product.product.device/d" $1/product/build.prop
+sed -i "/ro.product.product.manufacturer/d" $1/product/build.prop
+sed -i "/ro.product.product.model/d" $1/product/build.prop
+echo "ro.product.system.brand=xiaomi" >> $1/build.prop
+echo "ro.product.system.device=nitrogen" >> $1/build.prop
+echo "ro.product,system.manufacturer=xiaomi" >> $1/build.prop
+echo "ro.product.system.model=Mi Max 3" >> $1/build.prop
+echo "ro.build.product=nitrogen" >> $1/build.prop
+echo "ro.product.system_ext.brand=xiaomi" >> $1/system_ext/build.prop
+echo "ro.product.system_ext.device=nitrogen" >> $1/system_ext/build.prop
+echo "ro.product.system_ext.manufacturer=nitrogen" >> $1/system_ext/build.prop
+echo "ro.product.system_ext.model=Mi Max 3" >> $1/system_ext/build.prop
+echo "ro.product.product.brand=xiaomi" >> $1/product/build.prop
+echo "ro.product.product.device=nitrogen" >> $1/product/build.prop
+echo "ro.product.product.manufacturer=xiaomi" >> $1/product/build.prop
+echo "ro.product.product.model=Mi Max 3" >> $1/product/build.prop
+
+
