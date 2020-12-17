@@ -114,3 +114,36 @@ cp -fpr $1/../../build.prop $1/
 
 ## Append to phh script
 cat $thispath/rw-system.add.sh >> $1/bin/rw-system.sh
+
+## Nitrogen Specific
+
+echo 'qemu.hw.mainkeys=0' >> $1/build.prop
+echo 'ro.boot.vendor.overlay.theme=me.rsyhan.notch.killer' >> $1/build.prop
+echo 'ro.sf.lcd_density=380' >> $1/build.prop
+echo "# OpenGL version" >> $1/build.prop
+echo "ro.opengles.version=196610" >> $1/build.prop
+
+echo "" >> $1/build.prop
+echo "# System props for telephony" >> $1/build.prop
+echo "# System prop to turn on CdmaLTEPhone always" >> $1/build.prop
+echo "telephony.lteOnCdmaDevice=1,1" >> $1/build.prop
+echo "telephony.CdmaOnGsmDevice=1,1" >> $1/build.prop
+echo "#" >> $1/build.prop
+echo "# Debug options" >> $1/build.prop
+echo "persist.dbg.ims_volte_enable=1" >> $1/build.prop
+echo "persist.dbg.volte_avail_ovr=1" >> $1/build.prop
+echo "persist.dbg.vt_avail_ovr=1" >> $1/build.prop
+echo "persist.dbg.wfc_avail_ovr=1" >> $1/build.prop
+echo "#" >> $1/build.prop
+echo "# Radio options" >> $1/build.prop
+echo "persist.radio.rat_on=combine" >> $1/build.prop
+echo "persist.radio.data_ltd_sys_ind=1" >> $1/build.prop
+echo "persist.radio.data_cond_rprt=1" >> $1/build.prop
+echo "persist.radio.call.on.ims=1" >> $1/build.prop
+echo "ril.subscription.types=RUIM,RUIM" >> $1/build.prop
+echo "DEVICE_PROVISIONED=1" >> $1/build.prop
+echo "persist.vendor.data.mode=concurrent" >> $1/build.prop
+echo "ro.config.ringtone=Orion.ogg" >> $1/product/build.prop
+echo "ro.config.alarm_alert=Hassium.ogg" >> $1/product/build.prop
+echo "ro.config.notification_sound=Argon.ogg" >> $1/product/build.prop
+
