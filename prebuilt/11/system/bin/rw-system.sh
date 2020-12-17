@@ -190,19 +190,7 @@ fi
 
 if getprop ro.vendor.product.device |grep -iq -e RMX1801 -e RMX1803 -e RMX1807;then	
     setprop persist.sys.qcom-brightness "$(cat /sys/class/leds/lcd-backlight/max_brightness)"
-fi
-
-if getprop ro.vendor.build.fingerprint | grep -iq \
-    -e Xiaomi/beryllium/beryllium -e Xiaomi/sirius/sirius \
-    -e Xiaomi/dipper/dipper -e Xiaomi/ursa/ursa -e Xiaomi/polaris/polaris \
-    -e motorola/ali/ali -e iaomi/perseus/perseus -e iaomi/platina/platina \
-    -e iaomi/equuleus/equuleus -e motorola/nora -e xiaomi/nitrogen \
-    -e motorola/hannah -e motorola/james -e motorola/pettyl -e iaomi/cepheus \
-    -e iaomi/grus -e xiaomi/cereus -e iaomi/raphael;then
-    mount -o bind /mnt/phh/empty_dir /vendor/lib64/soundfx
-    mount -o bind /mnt/phh/empty_dir /vendor/lib/soundfx
-    setprop  ro.audio.ignore_effects true
-fi
+fi 
 
 if [ "$(getprop ro.vendor.product.manufacturer)" = "motorola" ] || [ "$(getprop ro.product.vendor.manufacturer)" = "motorola" ]; then
     if getprop ro.vendor.product.device | grep -q -e nora -e ali -e hannah -e evert -e jeter -e deen -e james -e pettyl -e jater; then
