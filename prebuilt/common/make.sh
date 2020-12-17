@@ -151,7 +151,7 @@ echo "ro.config.notification_sound=Argon.ogg" >> $1/product/build.prop
 echo "# Dalvik fix" >> $1/build.prop
 sed -i "/ro.product.system.brand/d" $1/build.prop
 sed -i "/ro.product.system.device/d" $1/build.prop
-sed -i "/ro.product,system.manufacturer/d" $1/build.prop
+sed -i "/ro.product.system.manufacturer/d" $1/build.prop
 sed -i "/ro.product.system.model/d" $1/build.prop
 sed -i "/ro.build.product/d" $1/build.prop
 sed -i "/ro.product.system_ext.brand/d" $1/system_ext/build.prop
