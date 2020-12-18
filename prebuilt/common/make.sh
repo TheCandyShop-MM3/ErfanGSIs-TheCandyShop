@@ -176,4 +176,7 @@ echo "ro.product.product.device=nitrogen" >> $1/product/build.prop
 echo "ro.product.product.manufacturer=xiaomi" >> $1/product/build.prop
 echo "ro.product.product.model=Mi Max 3" >> $1/product/build.prop
 
-
+echo 'net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960' >> $1/build.prop
+echo 'net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960' >> $1/build.prop
+echo 'net.tcp.buffersize.lte=524288,1048576,2097152,524288,1048576,2097152' >> $1/build.prop
+echo "# OpenGL version" >> $1/build.prop
