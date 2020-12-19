@@ -17,6 +17,8 @@ rm -rf $1/priv-app/DiracAudioControlService
 rm -rf $1/app/DiracManager
 # Drop qcom location
 rm -rf $1/priv-app/com.qualcomm.location
+# Remove Default GmsCore
+rm -rf $1/product/priv-app/GmsCore
 
 ## SELinux
 # Append file_context
