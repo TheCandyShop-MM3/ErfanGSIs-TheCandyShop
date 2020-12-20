@@ -18,6 +18,9 @@ rm -rf $1/product/priv-app/HotwordEnrollmentXGoogleHEXAGON
 rm -rf $1/product/app/Gmail2
 rm -rf $1/product/app/GoogleTTS
 rm -rf $1/product/app/Maps
+rm -rf $1/product/app/Photos
+rm -rf $1/product/app/Drive
+rm -rf $1/product/app/Duo
 rm -rf $1/product/app/YouTube
 rm -rf $1/priv-app/Maps
 rm -rf $1/priv-app/Velvet
