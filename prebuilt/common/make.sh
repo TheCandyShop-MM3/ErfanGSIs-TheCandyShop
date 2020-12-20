@@ -184,3 +184,7 @@ echo 'net.tcp.buffersize.lte=524288,1048576,2097152,524288,1048576,2097152' >> $
 echo "persist.cust.tel.eons=1" >> $1/build.prop
 echo "telephony.lteOnCdmaDevice=1" >> $1/build.prop
 echo "wifi.supplicant_scan_interval=180" >> $1/build.prop
+
+#remove forced gestural so notch killer works
+
+sed -i "/ro.boot.vendor.overlay.theme/d" $1/product/build.prop
