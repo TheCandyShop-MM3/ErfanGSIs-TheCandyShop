@@ -12,9 +12,6 @@ rm -rf $1/lib64/libdolphin.so
 # Drop caf permissions
 rm -rf $1/etc/permissions/qti_permissions.xml
 rm -rf $1/etc/permissions/com.qti.dpmframework.xml
-# We no Dirac here
-rm -rf $1/priv-app/DiracAudioControlService
-rm -rf $1/app/DiracManager
 # Drop qcom location
 rm -rf $1/priv-app/com.qualcomm.location
 # Remove Default GmsCore
