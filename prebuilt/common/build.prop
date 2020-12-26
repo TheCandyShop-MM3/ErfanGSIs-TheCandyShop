@@ -5,3 +5,380 @@ ro.sys.sdcardfs=0
 persist.sys.overlay.nightmode=true
 # Force triple frame buffers
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+
+# Display
+debug.sf.disable_backpressure=1
+debug.sf.enable_hwc_vds=1
+debug.sf.latch_unsignaled=1
+ro.opengles.version=196610
+ro.vendor.display.cabl=0
+ro.vendor.display.sensortype=2
+ro.vendor.display.svi=1
+vendor.display.enable_default_color_mode=0
+vendor.display.svi.config=1
+vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
+ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.has_HDR_display=true
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+ro.surface_flinger.max_virtual_display_dimension=4096
+ro.surface_flinger.protected_contents=true
+ro.surface_flinger.set_idle_timer_ms=50
+ro.surface_flinger.vsync_event_phase_offset_ns=2000000
+ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
+ro.surface_flinger.wcg_composition_dataspace=143261696
+debug.sf.showupdates=0
+debug.sf.showcpu=0
+debug.sf.showbackground=0
+debug.sf.showfps=0
+
+ro.vendor.qti.core_ctl_min_cpu=4
+ro.vendor.qti.core_ctl_max_cpu=8
+
+debug.egl.hw=1
+debug.mdpcomp.maxlayer=0
+debug.sf.hw=1
+dev.pm.gpu_samplingrate=1
+
+# Misc Tweaks
+debug.gr.swapinterval=0
+debug.performance.tuning=1
+dev.pm.dyn_samplingrate=1
+persist.adb.notify=0
+persist.service.adb.enable=1
+persist.sys.use_dithering=1
+persist.sys.purgeable_assets=1
+qemu.hw.mainkeys=0
+ro.sec.proximity.delay=0
+sys.mem.max_hidden_apps=15
+
+# Kernel Tweaks
+ro.kernel.checkjni=0
+
+# Ram Tweaks
+persist.sys.purgeable_assets=1
+
+# Kills Login
+ro.config.htc.nocheckin=1
+ro.config.nocheckin=1
+profiler.force_disable_ulog=1
+profiler.force_disable_err_rpt=1
+
+# Media Streaming Optimizations
+media.stagefright.enable-player=true
+media.stagefright.enable-meta=true
+media.stagefright.enable-scan=true
+media.stagefright.enable-http=true
+media.stagefright.enable-aac=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-record=true
+
+# Camera & Media Tweaks
+ro.media.enc.jpeg.quality=100
+ro.media.dec.jpeg.memcap=8000000
+ro.media.dec.jpeg.memcap=20000000
+ro.media.enc.hprof.vid.bps=8000000
+ro.media.enc.hprof.vid.fps=75
+ro.media.enc.jpeg.quality=100
+ro.media.dec.aud.wma.enabled=1
+ro.media.dec.vid.wmv.enabled=1
+ro.media.cam.preview.fps=25
+ro.media.codec_priority_for_thumb=so
+
+# CM9 Tweaks
+hwui.disable_vsync=true
+hwui.render_dirty_regions=false
+
+# Voice Optimization
+ro.ril.enable.amr.wideband
+
+# Better Telephony Settings
+ro.config.vc_call_vol_steps=15
+ro.config.vc_call_steps=20
+ro.telephony.call_ring.delay=0
+ring.delay=0
+ro.lge.proximity.delay=25
+mot.proximity.delay=25
+ro.mot.buttonlight.timeout=0
+
+# cloud DNS
+net.dns1=1.1.1.1
+net.dns2=1.0.0.1
+net.rmnet0.dns1=1.1.1.1
+net.rmnet0.dns2=1.0.0.1
+
+# TCP Tweaks (might break WiFi)
+net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.umts=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.gprs=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.edge=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.hspda=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.hspa=4096,87380,256960,4096,16384,256960
+
+# Wireless Conection Tweaks (might break WiFi)
+net.ipv4.ip_no_pmtu_disc=0
+net.ipv4.route.flush=1
+net.ipv4.tcp_ecn=0
+net.ipv4.tcp_fack=1
+net.ipv4.tcp_mem=187000 187000 187000
+net.ipv4.tcp_moderate_rcvbuf=1
+net.ipv4.tcp_no_metrics_save=1
+net.ipv4.tcp_rfc1337=1
+net.ipv4.tcp_rmem=4096 39000 187000
+net.ipv4.tcp_sack=1
+net.ipv4.tcp_timestamps=1
+net.ipv4.tcp_window_scaling=1
+net.ipv4.tcp_wmem=4096 39000 187000
+
+# 3d performance
+persist.android.strictmode=0
+ro.min_pointer_dur=1
+ro.secure=0
+
+# 16BIT Support
+debug.fb.rgb565=1
+
+# 16BIT Transparency 
+persist.sys.use_16bpp_alpha=1 
+
+# Graphic Tweaks
+ro.product.gpu.driver=1
+debug.gr.swapinterval=0
+
+# Dalvik Tweaks
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heapgrowthlimit=64m
+dalvik.vm.heapsize=256m
+dalvik.vm.dexopt-flags=m=y,v=n,o=n
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+dalvik.vm.lockprof.threshold=500
+dalvik.vm.execution-mode=int:jit
+dalvik.vm.jmiopts=forcecopy
+dalvik.vm.dexopt-data-only=1
+
+# Enable Qualcomm tile rendering (Hardware Rende
+# enable harware egl profile
+debug.egl.profiler=1
+
+# FPs Booster
+persist.sys.NV_FPSLIMIT=60
+persist.sys.NV_POWERMODE=1
+persist.sys.NV_PROFVER=15
+persist.sys.NV_STEREOCTRL=0
+persist.sys.NV_STEREOSEPCHG=0
+persist.sys.NV_STEREOSEP=20
+
+# Graphic Optimization
+debug.gr.numframebuffers=3
+ro.min_pointer_dur=1
+
+# Hardware 2D & 3D Rendering
+hw3d.force=1
+hw2d.force=1
+
+# Nitro Lagg Nullifier
+ENFORCE_PROCESS_LIMIT=false
+MAX_SERVICE_INACTIVITY=false
+MIN_HIDDEN_APPS=false
+MAX_HIDDEN_APPS=false
+CONTENT_APP_IDLE_OFFSET=false
+EMPTY_APP_IDLE_OFFSET=false
+MAX_ACTIVITIES=false
+ACTIVITY_INACTIVE_RESET_TIME=false
+MAX_RECENT_TASKS=false
+MIN_RECENT_TASKS=false
+APP_SWITCH_DELAY_TIME=false
+MAX_PROCESSES=false
+PROC_START_TIMEOUT=false
+CPU_MIN_CHECK_DURATION=false
+GC_TIMEOUT=false
+SERVICE_TIMEOUT=false
+MIN_CRASH_INTERVAL=false
+
+# Pro-Tuned ADJ 1.2 by LENAROX.
+ro.FOREGROUND_APP_ADJ=0
+ro.VISIBLE_APP_ADJ=4
+ro.PERCEPTIBLE_APP_ADJ=3
+ro.HEAVY_WEIGHT_APP_ADJ=2
+ro.SECONDARY_SERVER_ADJ=1
+ro.BACKUP_APP_ADJ=5
+ro.HOME_APP_ADJ=6
+ro.HIDDEN_APP_MIN_ADJ=7
+ro.EMPTY_APP_ADJ=15
+
+#Ultimate Assassin Mode!
+ro.SECONDARY_SERVER_ADJ=15
+ro.HIDDEN_APP_MIN_ADJ=3
+
+# Qualcomm Display Settings (Qualcomm devices ONLY!!)
+com.qc.hardware=1
+debug.qc.hardware=true
+debug.qctwa.preservebuf=1
+debug.qctwa.statusbar=1
+
+# Rendering Tweaks
+debug.composition.type=c2d
+debug.egl.hw=1
+debug.enabletr=true
+debug.overlayui.enable=1
+debug.qctwa.preservebuf=1
+debug.performance.tuning=1
+debug.sf.hw=1
+dev.pm.dyn_samplingrate=1
+hw3d.force=1
+ro.config.disable.hw_accel=false
+ro.fb.mode=1
+ro.sf.compbypass.enable=0
+ro.vold.umsdirtyratio=20
+persist.sys.composition.type=c2d
+persist.sys.ui.hw=1
+video.accelerate.hw=1
+
+# Sensor Sleep Control
+ro.ril.sensor.sleep.control=1
+
+# Smoothens UI
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
+
+#hwui properties
+ro.hwui.texture_cache_size=72
+ro.hwui.layer_cache_size=48
+ro.hwui.r_buffer_cache_size=8
+ro.hwui.path_cache_size=32
+ro.hwui.gradient_cache_size=1
+ro.hwui.drop_shadow_cache_size=6
+ro.hwui.texture_cache_flushrate=0.4
+ro.hwui.text_small_cache_width=1024
+ro.hwui.text_small_cache_height=1024
+ro.hwui.text_large_cache_width=2048
+ro.hwui.text_large_cache_height
+
+# Improve Sliding Response Tweaks Set Config
+ro.min_pointer_dur=6
+ro.min.fling_velocity=8000
+ro.max.fling_velocity=14000
+persist.sys.scrollingcache=4
+persist.service.pcsync.enable=1
+persist.service.lgospd.enable=1
+touch.deviceType=touchScreen
+windowsmgr.max_events_per_sec=180
+
+# Open The First-In-First-Out Interface Thread Tweaks Set Config
+af.resampler.quality=255
+debwug.sf.latch_unsignaled=0
+debug.sf.disable_backpressure=0
+persist.af.resampler.quality=255
+persist.dev.pm.dyn_samplingrate=1
+pm.dexopt.shared=speed
+pm.dexopt.bg-dexopt=speed
+ro.floatingtouch.available=0
+ro.product.max_num_touch=10
+ro.product.multi_touch_enabled=true
+ro.ril.enable.a52=1
+ro.ril.enable.a53=0
+ro.ril.enable.a54=1
+ro.ril.enable.a55=1
+ro.securestorage.knox=false
+security.mdpp=none
+security.mdpp.result=none
+sys.use_fifo_ui=1
+
+# Improve Global Touch Screen Response Tweaks Set Config
+TapSlop=1px
+TapInterval=1ms
+touch.size.bias=0
+touch.size.scale=1
+view.touch_slop=1
+view.scroll_friction=10
+touch.distance.scale=0
+touch.size.isSummed=0
+touch.orientationAware=1
+touch.gestureMode=spots
+touch.pressure.scale=0.0001
+MultitouchMinDistance=1px
+MultitouchSettleInterval=1ms
+touch.pressure.source=default
+touch.coverage.calibration=box
+touch.size.calibration=geometric
+touch.distance.calibration=none
+touch.orientation.calibration=none
+touch.touchSize.calibration=pressure
+touch.pressure.calibration=physical
+
+# Tool Size Touch Tweaks Set Config
+touch.toolSize.calibration=area
+touch.toolSize.areaScale=22
+touch.toolSize.areaBias=0
+touch.toolSize.linearScale=9.2
+touch.toolSize.linearBias=0
+touch.toolSize.isSummed=0
+
+# Increase Performance Tweaks Set Config
+dev.pm.dyn_samplingrate=1
+debug.gr.numframebuffers=3
+debug.performance.tuning=1
+debug.kill_allocating_task=0
+debug.qctwa.preservebuf=1
+debug.qctwa.statusbar=1
+debug.qc.hardware=false
+com.qc.hardware=false
+hw3d.force=1
+hw2d.force=1
+force_hw_ui=false
+ro.debuggable=1
+ro.product.gpu.driver=1
+persist.sys.ui.hw=0
+persist.sys.purgeable_assets=1
+
+# RAM Management Tweaks Set Config
+ro.secure=0
+ro.config.fha_enable=true
+ro.sys.fw.bg_apps_limit=32
+ro.config.dha_cached_max=16
+ro.config.dha_lmk_scale=0.545
+ro.config.dha_th_rate=2.3
+ro.config.sdha_apps_bg_max=64
+ro.config.sdha_apps_bg_min=8
+ro.config.disable.hw_accel=true
+debug.composition.type=c2d
+debug.composition.type=gpu
+debug.enabletr=false
+debug.hwui.render_dirty_regions=false
+hwui.render_dirty_regions=false
+hwui.disable_vsync=true
+persist.sampling_profiler=0
+persist.sys.composition.type=c2d
+persist.sys.composition.type=gpu
+persist.sys.use_16bpp_alpha=1
+
+# Dalvik Cache Tweaks Set Config
+persist.android.strictmode=0
+ro.kernel.android.checkjni=1
+ro.kernel.checkjni=1
+ro.config.nocheckin=1
+ro.compcache.default=0
+dalvik.vm.checkjni=false
+dalvik.vm.check-dex-sum=false
+dalvik.vm.deadlock-predict=off
+dalvik.vm.debug.alloc=0
+dalvik.vm.dexopt-flags=m=y
+dalvik.vm.execution-mode=int:jit
+dalvik.vm.verify-bytecode=false
+dalvik.vm.jmiopts=forcecopy
+dalvik.vm.heaputilization=0.25
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.usejit=true
+dalvik.vm.usejitprofiles=true
+
+# Internet Connection Buffer Tweaks Set Config
+net.tcp.buffersize.default=4096,87380,256960,4096, 16384,256960
+net.tcp.buffersize.wifi=4096,87380,256960,4096,163 84,256960
+net.tcp.buffersize.lte=524288,1048576,2097152,5242 88,1048576,2097152
+net.tcp.buffersize.hsdpa=6144,87380,1048576,6144,8 7380,1048576
+net.tcp.buffersize.hspa=6144,87380,524288,6144,163 84,262144
+net.tcp.buffersize.umts=4096,87380,256960,4096,163 84,256960
+net.tcp.buffersize.edge=4096,87380,256960,4096,163 84,256960
+net.tcp.buffersize.gprs=4096,87380,256960,4096,163 84,256960
+net.tcp.buffersize.evdo_b=6144,87380,1048576,6144, 87380,1048576
