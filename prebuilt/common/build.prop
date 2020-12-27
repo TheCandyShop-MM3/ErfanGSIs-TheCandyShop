@@ -32,28 +32,12 @@ debug.sf.showcpu=0
 debug.sf.showbackground=0
 debug.sf.showfps=0
 
-ro.vendor.qti.core_ctl_min_cpu=4
-ro.vendor.qti.core_ctl_max_cpu=8
+
 
 debug.egl.hw=1
 debug.mdpcomp.maxlayer=0
 debug.sf.hw=1
 dev.pm.gpu_samplingrate=1
-
-# Misc Tweaks
-debug.gr.swapinterval=0
-debug.performance.tuning=1
-dev.pm.dyn_samplingrate=1
-persist.adb.notify=0
-persist.service.adb.enable=1
-persist.sys.use_dithering=1
-persist.sys.purgeable_assets=1
-qemu.hw.mainkeys=0
-ro.sec.proximity.delay=0
-sys.mem.max_hidden_apps=15
-
-# Kernel Tweaks
-ro.kernel.checkjni=0
 
 
 
@@ -120,16 +104,6 @@ net.ipv4.tcp_timestamps=1
 net.ipv4.tcp_window_scaling=1
 net.ipv4.tcp_wmem=4096 39000 187000
 
-# 3d performance
-persist.android.strictmode=0
-ro.min_pointer_dur=1
-ro.secure=0
-
-# 16BIT Support
-debug.fb.rgb565=1
-
-# 16BIT Transparency 
-persist.sys.use_16bpp_alpha=1 
 
 # Graphic Tweaks
 ro.product.gpu.driver=1
@@ -145,10 +119,6 @@ dalvik.vm.lockprof.threshold=500
 dalvik.vm.execution-mode=int:jit
 dalvik.vm.jmiopts=forcecopy
 dalvik.vm.dexopt-data-only=1
-
-# Enable Qualcomm tile rendering (Hardware Rende
-# enable harware egl profile
-debug.egl.profiler=1
 
 
 
@@ -216,25 +186,6 @@ persist.service.lgospd.enable=1
 touch.deviceType=touchScreen
 windowsmgr.max_events_per_sec=180
 
-# Open The First-In-First-Out Interface Thread Tweaks Set Config
-af.resampler.quality=255
-debwug.sf.latch_unsignaled=0
-debug.sf.disable_backpressure=0
-persist.af.resampler.quality=255
-persist.dev.pm.dyn_samplingrate=1
-pm.dexopt.shared=speed
-pm.dexopt.bg-dexopt=speed
-ro.floatingtouch.available=0
-ro.product.max_num_touch=10
-ro.product.multi_touch_enabled=true
-ro.ril.enable.a52=1
-ro.ril.enable.a53=0
-ro.ril.enable.a54=1
-ro.ril.enable.a55=1
-ro.securestorage.knox=false
-security.mdpp=none
-security.mdpp.result=none
-sys.use_fifo_ui=1
 
 # Improve Global Touch Screen Response Tweaks Set Config
 TapSlop=1px
