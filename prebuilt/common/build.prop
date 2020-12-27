@@ -55,14 +55,7 @@ sys.mem.max_hidden_apps=15
 # Kernel Tweaks
 ro.kernel.checkjni=0
 
-# Ram Tweaks
-persist.sys.purgeable_assets=1
 
-# Kills Login
-ro.config.htc.nocheckin=1
-ro.config.nocheckin=1
-profiler.force_disable_ulog=1
-profiler.force_disable_err_rpt=1
 
 # Media Streaming Optimizations
 media.stagefright.enable-player=true
@@ -84,10 +77,6 @@ ro.media.dec.aud.wma.enabled=1
 ro.media.dec.vid.wmv.enabled=1
 ro.media.cam.preview.fps=25
 ro.media.codec_priority_for_thumb=so
-
-# CM9 Tweaks
-hwui.disable_vsync=true
-hwui.render_dirty_regions=false
 
 # Voice Optimization
 ro.ril.enable.amr.wideband
@@ -161,13 +150,7 @@ dalvik.vm.dexopt-data-only=1
 # enable harware egl profile
 debug.egl.profiler=1
 
-# FPs Booster
-persist.sys.NV_FPSLIMIT=60
-persist.sys.NV_POWERMODE=1
-persist.sys.NV_PROFVER=15
-persist.sys.NV_STEREOCTRL=0
-persist.sys.NV_STEREOSEPCHG=0
-persist.sys.NV_STEREOSEP=20
+
 
 # Graphic Optimization
 debug.gr.numframebuffers=3
@@ -177,39 +160,7 @@ ro.min_pointer_dur=1
 hw3d.force=1
 hw2d.force=1
 
-# Nitro Lagg Nullifier
-ENFORCE_PROCESS_LIMIT=false
-MAX_SERVICE_INACTIVITY=false
-MIN_HIDDEN_APPS=false
-MAX_HIDDEN_APPS=false
-CONTENT_APP_IDLE_OFFSET=false
-EMPTY_APP_IDLE_OFFSET=false
-MAX_ACTIVITIES=false
-ACTIVITY_INACTIVE_RESET_TIME=false
-MAX_RECENT_TASKS=false
-MIN_RECENT_TASKS=false
-APP_SWITCH_DELAY_TIME=false
-MAX_PROCESSES=false
-PROC_START_TIMEOUT=false
-CPU_MIN_CHECK_DURATION=false
-GC_TIMEOUT=false
-SERVICE_TIMEOUT=false
-MIN_CRASH_INTERVAL=false
 
-# Pro-Tuned ADJ 1.2 by LENAROX.
-ro.FOREGROUND_APP_ADJ=0
-ro.VISIBLE_APP_ADJ=4
-ro.PERCEPTIBLE_APP_ADJ=3
-ro.HEAVY_WEIGHT_APP_ADJ=2
-ro.SECONDARY_SERVER_ADJ=1
-ro.BACKUP_APP_ADJ=5
-ro.HOME_APP_ADJ=6
-ro.HIDDEN_APP_MIN_ADJ=7
-ro.EMPTY_APP_ADJ=15
-
-#Ultimate Assassin Mode!
-ro.SECONDARY_SERVER_ADJ=15
-ro.HIDDEN_APP_MIN_ADJ=3
 
 # Qualcomm Display Settings (Qualcomm devices ONLY!!)
 com.qc.hardware=1
