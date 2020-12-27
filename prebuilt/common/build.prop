@@ -315,22 +315,7 @@ touch.toolSize.linearScale=9.2
 touch.toolSize.linearBias=0
 touch.toolSize.isSummed=0
 
-# Increase Performance Tweaks Set Config
-dev.pm.dyn_samplingrate=1
-debug.gr.numframebuffers=3
-debug.performance.tuning=1
-debug.kill_allocating_task=0
-debug.qctwa.preservebuf=1
-debug.qctwa.statusbar=1
-debug.qc.hardware=false
-com.qc.hardware=false
-hw3d.force=1
-hw2d.force=1
-force_hw_ui=false
-ro.debuggable=1
-ro.product.gpu.driver=1
-persist.sys.ui.hw=0
-persist.sys.purgeable_assets=1
+
 
 # RAM Management Tweaks Set Config
 ro.secure=0
