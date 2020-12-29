@@ -217,5 +217,5 @@ touch.toolSize.linearScale=9.2
 touch.toolSize.linearBias=0
 touch.toolSize.isSummed=0
 
-
+sys.display-size=3840x2160
 
