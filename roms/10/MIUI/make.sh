@@ -37,4 +37,7 @@ cat $thispath/rw-system.add.sh >> $1/bin/rw-system.sh
 
 echo "sys.displayfeature_hidl=true" >> $1/build.prop
 echo "sys.displayfeature.hbm.enable=false" >> $1/build.prop
+echo "sys.paper_mode_default_level=16" >> $1/build.prop
+echo "sys.paper_mode_max_level=32" >> $1/build.prop
+
 
