@@ -34,3 +34,7 @@ sed -i "/miui.notch/d" $1/build.prop
 # Wifi fix
 cp -fpr $thispath/bin/* $1/bin/
 cat $thispath/rw-system.add.sh >> $1/bin/rw-system.sh
+
+echo "sys.displayfeature_hidl=true" >> $1/build.prop
+echo "sys.displayfeature.hbm.enable=false" >> $1/build.prop
+
