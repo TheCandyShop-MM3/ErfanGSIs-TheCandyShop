@@ -165,45 +165,7 @@ persist.service.pcsync.enable=0
 
 
 
-# Improve Sliding Response Tweaks Set Config
-ro.min_pointer_dur=6
-ro.min.fling_velocity=8000
-ro.max.fling_velocity=14000
-persist.sys.scrollingcache=4
-persist.service.pcsync.enable=1
-persist.service.lgospd.enable=1
-touch.deviceType=touchScreen
-windowsmgr.max_events_per_sec=180
-
-
-# Improve Global Touch Screen Response Tweaks Set Config
-TapSlop=1px
-TapInterval=1ms
-touch.size.bias=0
-touch.size.scale=1
-view.touch_slop=1
-touch.distance.scale=0
-touch.size.isSummed=0
-touch.orientationAware=1
-touch.gestureMode=spots
-touch.pressure.scale=0.0001
-MultitouchMinDistance=1px
-MultitouchSettleInterval=1ms
-touch.pressure.source=default
-touch.coverage.calibration=box
-touch.size.calibration=geometric
-touch.distance.calibration=none
-touch.orientation.calibration=none
-touch.touchSize.calibration=pressure
-touch.pressure.calibration=physical
-
-# Tool Size Touch Tweaks Set Config
-touch.toolSize.calibration=area
-touch.toolSize.areaScale=22
-touch.toolSize.areaBias=0
-touch.toolSize.linearScale=9.2
-touch.toolSize.linearBias=0
-touch.toolSize.isSummed=0
+#
 
 sys.display-size=3840x2160
 
