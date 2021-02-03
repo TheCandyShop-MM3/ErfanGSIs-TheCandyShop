@@ -186,3 +186,4 @@ echo "wifi.supplicant_scan_interval=180" >> $1/build.prop
 
 sed -i "/ro.boot.vendor.overlay.theme/d" $1/product/build.prop
 sed -i "/persist.bluetooth.bluetooth_audio_hal.disabled/d" $1/build.prop
+sed -i "/ro.treble.enabled/d" $1/build.prop
