@@ -10,7 +10,7 @@ rm -rf $1/priv-app/YellowPage
 rm -rf $1/priv-app/facebook-installer
 rm -rf $1/priv-app/facebook-services
 rm -rf $1/app/Lens
-rm -rf $1/product/priv-app/Velvet
+
 rm -rf $1/product/priv-app/Turbo
 rm -rf $1/product/app/Gmail2
 rm -rf $1/product/app/GoogleTTS
