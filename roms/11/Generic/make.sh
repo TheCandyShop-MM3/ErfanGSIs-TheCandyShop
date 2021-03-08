@@ -24,6 +24,8 @@ rm -rf $1/product/app/PrebuiltGmsCore
 rm -rf $1/product/app/PrebuiltGmsCoreRvc
 rm -rf $1/priv-app/Maps
 rm -rf $1/priv-app/Velvet
+rm -rf $1/priv-app/XiaomiParts
+rm -rf $1/priv-app/XiaomiDirac
 rm -rf $1/app/YouTube
 rm -rf $1/app/Photos
 rm -rf $1/app/Messages
