@@ -22,6 +22,8 @@ rm -rf $1/product/app/Camera2
 rm -rf $1/product/app/YouTube
 rm -rf $1/product/app/PrebuiltGmsCore
 rm -rf $1/product/app/PrebuiltGmsCoreRvc
+rm -rf $1/product/priv-app/PrebuiltGmsCore
+rm -rf $1/product/priv-app/PrebuiltGmsCoreRvc
 rm -rf $1/priv-app/Maps
 rm -rf $1/priv-app/Velvet
 
