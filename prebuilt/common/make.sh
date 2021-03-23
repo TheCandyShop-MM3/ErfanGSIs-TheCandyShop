@@ -190,3 +190,5 @@ sed -i "/ro.treble.enabled/d" $1/build.prop
 sed -i "/ro.system.build.fingerprint/d" $1/build.prop
 
 echo "ro.system.build.fingerprint=Xiaomi/nitrogen/nitrogen:10/QKQ1.190910.002/20.9.4:user/release-keys" >> $1/build.prop
+sed -i "/org.evolution.build_maintainer/d" $1/build.prop
+echo "org.evolution.build_maintainer=SpyderMahn" >> $1/build.prop
