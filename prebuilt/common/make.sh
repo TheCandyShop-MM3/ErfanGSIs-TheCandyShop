@@ -194,3 +194,7 @@ sed -i "/org.evolution.build_maintainer/d" $1/build.prop
 echo "org.evolution.build_maintainer=SpyderMahn" >> $1/build.prop
 sed -i "/ro.corvus.maintainer/d" $1/build.prop
 echo "ro.corvus.maintainer=SpyderMahn" >> $1/build.prop
+sed -i "/ro.dot.device/d" $1/build.prop
+echo "ro.dot.device=nitrogen" >> $1/build.prop
+sed -i "/ro.dot.maintainer/d" $1/build.prop
+echo "ro.dot.maintainer=SpyderMahn" >> $1/build.prop
