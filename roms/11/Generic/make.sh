@@ -38,3 +38,5 @@ rm -rf $1/app/Keep
 rm -rf $1/app/GoogleTTS
 rm -rf $1/app/talkback
 rm -rf $1/app/Maps
+rm -rf $1/app/MotoDolbyV3
+rm -rf $1/priv-app/daxservice
