@@ -206,3 +206,5 @@ sed -i "/ro.derp.device/d" $1/build.prop
 echo "ro.derp.device=nitrogen" >> $1/build.prop
 sed -i "/ro.product.system.name/d" $1/build.prop
 echo "ro.product.system.name=nitrogen" >> $1/build.prop
+sed -i "/ro.derp.maintainer/d" $1/build.prop
+echo "ro.derp.maintainer=SpyderMahn" >> $1/build.prop
