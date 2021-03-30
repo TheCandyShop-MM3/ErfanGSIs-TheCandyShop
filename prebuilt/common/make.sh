@@ -198,3 +198,7 @@ sed -i "/ro.dot.device/d" $1/build.prop
 echo "ro.dot.device=nitrogen" >> $1/build.prop
 sed -i "/ro.dot.maintainer/d" $1/build.prop
 echo "ro.dot.maintainer=SpyderMahn" >> $1/build.prop
+sed -i "/ro.crdroid.device/d" $1/build.prop
+echo "ro.crdroid.device=nitrogen" >> $1/build.prop
+sed -i "/ro.lineage.device/d" $1/build.prop
+echo "ro.lineage.device=nitrogen" >> $1/build.prop
